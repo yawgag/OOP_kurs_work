@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Workers_report" pageWidth="792" pageHeight="612" orientation="Landscape" columnWidth="752" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="0e692e6d-b909-447b-b170-0495837f16b4">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/main/all_workers/Worker]]>
+	</queryString>
+	<field name="id" class="java.lang.String">
+		<fieldDescription><![CDATA[@id]]></fieldDescription>
+	</field>
+	<field name="name" class="java.lang.String">
+		<fieldDescription><![CDATA[@name]]></fieldDescription>
+	</field>
+	<field name="last_name" class="java.lang.String">
+		<fieldDescription><![CDATA[@last_name]]></fieldDescription>
+	</field>
+	<field name="age" class="java.lang.String">
+		<fieldDescription><![CDATA[@age]]></fieldDescription>
+	</field>
+	<field name="profession" class="java.lang.String">
+		<fieldDescription><![CDATA[@profession]]></fieldDescription>
+	</field>
+	<field name="work_experience" class="java.lang.String">
+		<fieldDescription><![CDATA[@work_experience]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="53" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="752" height="47" uuid="1ce9e6a2-0ca8-4f99-841c-db88765824e1"/>
+				<textElement textAlignment="Center">
+					<font fontName="DejaVu Sans Mono" size="36"/>
+				</textElement>
+				<text><![CDATA[Отчёт]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="41" splitType="Stretch">
+			<staticText>
+				<reportElement x="277" y="0" width="200" height="33" uuid="7a391770-c9d4-4cd5-b6f3-e649af557c9c"/>
+				<textElement textAlignment="Center">
+					<font fontName="DejaVu Sans Mono" size="20"/>
+				</textElement>
+				<text><![CDATA[Работники]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="28" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="100" height="20" uuid="5db963a5-1c4b-41d1-99c9-998e8ed6cd5c"/>
+				<textElement>
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<text><![CDATA[id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="0" width="146" height="20" uuid="b15af684-e4f5-4e16-bc9a-fddfa23e8943"/>
+				<textElement>
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<text><![CDATA[Имя]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="246" y="0" width="131" height="20" uuid="d8a1d4db-a253-400e-8da3-55aafd1ebed9"/>
+				<textElement>
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<text><![CDATA[Фамилия]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="377" y="0" width="100" height="20" uuid="9af39061-c9e9-4556-8643-42d1f08d48e7"/>
+				<textElement>
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<text><![CDATA[Возраст]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="477" y="0" width="100" height="20" uuid="40c96d16-bca9-46f1-9c5d-6db41a2600af"/>
+				<textElement>
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<text><![CDATA[Профессия]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="577" y="0" width="100" height="20" uuid="3ca79c0c-3d89-4541-acf6-ad3e0fd6e192"/>
+				<textElement>
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<text><![CDATA[Стаж]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="25" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="100" height="20" uuid="87be55cb-c5e6-4b3d-9777-0fd10889ddb2"/>
+				<textElement>
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="0" width="146" height="20" uuid="8147aef8-24f3-4588-92df-1fbc39d9063c"/>
+				<textElement>
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="246" y="0" width="131" height="20" uuid="a5c1ccfb-b438-4372-8f99-0b9dea2716b5"/>
+				<textElement>
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{last_name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="377" y="0" width="100" height="20" uuid="e1e72c30-2e29-4070-a599-cbcf9495e16c"/>
+				<textElement>
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{age}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="477" y="0" width="100" height="20" uuid="875b1bf6-c59a-462c-b84d-ed93211e802c"/>
+				<textElement>
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{profession}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="577" y="0" width="100" height="20" uuid="765c939a-5348-4683-97c1-aaf770bf0d0e"/>
+				<textElement>
+					<font fontName="DejaVu Sans Mono"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{work_experience}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

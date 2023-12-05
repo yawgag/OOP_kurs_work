@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<main>
+    <all_workers>
+        <Worker age="27" id="35" last_name="Попов" name="Алексей" profession="менеджер" work_experience="5"/>
+    </all_workers>
+</main>

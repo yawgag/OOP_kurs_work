@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<main>
+    <all_workers>
+        <Worker age="27" id="35" last_name="Попов" name="Алексей" profession="менеджер" work_experience="5"/>
+        <Worker age="32" id="36" last_name="Иванов" name="Иван" profession="швейцар" work_experience="11"/>
+        <Worker age="22" id="37" last_name="андреев" name="Андрей" profession="уборщик" work_experience="5"/>
+        <Worker age="43" id="38" last_name="Бейбидонтхертмин" name="Владислав" profession="уборщик" work_experience="3"/>
+        <Worker age="20" id="46" last_name="Иевлев" name="Ростислав" profession="уборщик" work_experience="2"/>
+        <Worker age="27" id="49" last_name="Попов" name="Алексей" profession="менеджер" work_experience="5"/>
+        <Worker age="27" id="50" last_name="Попов" name="Алексей" profession="менеджер" work_experience="5"/>
+        <Worker age="32" id="51" last_name="Иванов" name="Иван" profession="швейцар" work_experience="11"/>
+        <Worker age="22" id="52" last_name="андреев" name="Андрей" profession="уборщик" work_experience="5"/>
+        <Worker age="43" id="53" last_name="Бейбидонтхертмин" name="Владислав" profession="уборщик" work_experience="3"/>
+        <Worker age="20" id="54" last_name="Иевлев" name="Ростислав" profession="уборщик" work_experience="2"/>
+        <Worker age="27" id="55" last_name="Попов" name="Алексей" profession="менеджер" work_experience="5"/>
+        <Worker age="27" id="56" last_name="Попов" name="Алексей" profession="менеджер" work_experience="5"/>
+        <Worker age="27" id="57" last_name="Попов" name="Алексей" profession="менеджер" work_experience="5"/>
+    </all_workers>
+</main>

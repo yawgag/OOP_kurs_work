@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<main>
+    <all_rooms>
+        <room copacity="3" id="41" number="141" price="3900" reserved_now="1"/>
+        <room copacity="4" id="42" number="142" price="3900" reserved_now="1"/>
+        <room copacity="4" id="43" number="250" price="2500" reserved_now="1"/>
+        <room copacity="2" id="44" number="501" price="5700" reserved_now="1"/>
+        <room copacity="3" id="45" number="502" price="4200" reserved_now="0"/>
+        <room copacity="4" id="46" number="251" price="2800" reserved_now="0"/>
+        <room copacity="3" id="47" number="701" price="6000" reserved_now="0"/>
+    </all_rooms>
+</main>

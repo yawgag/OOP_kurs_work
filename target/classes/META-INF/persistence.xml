@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation = "http://xmlns.jcp.org/xml/ns/persistence
+             http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+    <persistence-unit name="test_persistence">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>test.hibernate.Guest</class>
+        <class>test.hibernate.Room</class>
+        <class>test.hibernate.Reservation</class>
+        <class>test.hibernate.Workers</class>
+        <class>test.hibernate.completedReservations</class>
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/Hotel"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="981432"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/Hotel"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value="981432"/>
+
+        </properties>
+    </persistence-unit>
+</persistence>
